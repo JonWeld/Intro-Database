@@ -1,0 +1,11 @@
+CIS150 Assignment #4
+
+Five SQLite Supported Data Types (SQLite.org)
+1. NULL: A value that is unknown
+2. INTEGER: The value is an integer
+3. REAL: A value that is a floating-point number
+4. TEXT: A value that includes a text string
+5. BLOB: A datatype that can be numeric or text, or whatever you want it to be
+Three Valued Logic (Page 31, using.sqlite.oreilly.2010): A consequence of supporting an unknown to mark absent data. There are 3 operators: NOT, AND< and OR
+All SQLite operators (Page 33 and 348, using.sqlite.oreilly.2010):  || provides string  concatenation, + adds values, - subtracts values, * multiplies value, / divides values, % divides the left value by the right value and give a remainder, ~ performs a bit-wise inversion, NOT reverses a Boolean expression using 3VL, == checks if two values are equal, same goes for =, != checks if two values are not equal, same goes for <>,  > checks if the left side is greater than the right, < checks if the left side is less than the right, >= checks to see if the left side is greater than or equal to the right, <= checks to see if the left side is less than or equal to the right, !> checks to see if the left is not greater than the right, !< checks to see if the left is not less than the right, | & << >> are the bitwise operators or, and, and shift-high/shift-low, IN LIKE GLOB MATCH REGEXP are logic operators , returning, true, false, or NULL state, AND OR are also logic operators that return an integer logic value when one of their parameter expressions is NULL.
+
