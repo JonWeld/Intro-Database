@@ -1,0 +1,4 @@
+One of the easiest ways to encrypt a database is to have the cipher version of DB_Browser installed and use its encryption in the tools drop down menu.
+You can also use the sqlite_dbconfig_defensive flag to prevent potential database file corruptions from sql statements.
+You also have the option to change one of many limit settings to prevent denial of service attacks from large inputs.
+Another thing you can do is you can go into the windows file settings and manually change who can access or modify the database file.
